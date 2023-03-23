@@ -21,8 +21,10 @@ public class Main {
         double sueldoNet=sueldoBruto-dstoImpuesto;
 
         System.out.println("Nombre: "+name);
-        System.out.println("El Sueldo Bruto es: "+sueldoBruto);
-        System.out.println("Descuento es : "+dstoImpuesto);
-        System.out.println("El sueldo Neto es: "+sueldoNet);
+        System.out.println("Sueldo por hora: "+salarioHora);
+        System.out.println("Horas trabajadas: "+horas);
+        System.out.println("Sueldo Bruto es: "+sueldoBruto);
+        System.out.println("Descuento : "+dstoImpuesto);
+        System.out.println("Sueldo Neto: "+sueldoNet);
     }
 }
